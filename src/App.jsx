@@ -25,6 +25,7 @@ const App = () => {
         return <div className='flex justify-between items-center'>
           <img className="w-60 h-40 rounded mt-2" src={elem.download_url} alt="" />
           <h1>{elem.author}</h1>
+          <h1>{elem.author}</h1>
         </div>
 
       })}
